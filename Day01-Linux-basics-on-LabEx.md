@@ -21,6 +21,6 @@ Converts text into ASCII art.
 figlet Linux
 
 ### clear
-clears the terminal
+
 Clears the terminal screen.
 clear
