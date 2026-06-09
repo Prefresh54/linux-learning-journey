@@ -13,8 +13,7 @@ This repository documents my journey learning Linux fundamentals, command-line s
 ## 📚 Topics Covered
 - Linux basics (pwd, cd, ls, etc.)
 - File system navigation
-- Permissions and users
-- Bash scripting basics
+  
 
 ## 📂 Structure
 - notes/ → Learning notes
