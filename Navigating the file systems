@@ -1,0 +1,6 @@
+in linux we call folders 'directories' so learning how to move through these directories :
+pwd-stands for 'printing working directory' it tells you which directory youre currently in 
+cd stands for 'change directory' 
+ls stands for list, it shows all the files and directories in your current location 
+in linux / is the root of the file system [like c: in windows]
+directories are seperated by / and not \ like in windows 
