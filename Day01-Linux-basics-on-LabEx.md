@@ -1,6 +1,26 @@
-"echo"- A command on the terminal  that makes your computer say whatever you say after inputing "echo"
-"date"- A command on the terminal to get the current date
-"cal" - A command on the terminal to see a neat calender of the current month
-"expr"- A command on the terminal for calculations
-"figlet"  command  on the terminal to turn text into ASCII art
-"clear"- to clean up terminal 
+## Linux Basics
+
+### echo
+Displays text in the terminal.
+echo "Hello World"
+
+### date
+Displays the current date and time.
+date
+
+### cal
+Displays a calendar for the current month.
+cal
+
+### expr
+Performs basic arithmetic calculations.
+expr 5 + 3
+
+### figlet
+Converts text into ASCII art.
+figlet Linux
+
+### clear
+clears the terminal
+Clears the terminal screen.
+clear
