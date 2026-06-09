@@ -1,21 +1,59 @@
-#### before proceeding make sure youre in the /home/labex/project directory if not utilize 'cd' command to navigate to the correct directory
-### lets create a new directory called linux_practice 
-bash|code: mkdir linux_practice
-mkdir stands for 'make directory' this command creates a new folder 
 
-### move to  new directory 
+# Linux Practice: File & Directory Basics
+
+## Step 1: Ensure correct directory
+
+Before proceeding, make sure you are in:
+/home/labex/project
+
+If not, use the cd command to navigate:
+cd /home/labex/project
+
+---
+
+## Step 2: Create a new directory
+
+We will create a folder called linux_practice.
+mkdir linux_practice
+
+### What mkdir does:
+mkdir stands for Make Directory. It creates a new folder.
+
+---
+
+## Step 3: Move into the new directory
 cd linux_practice
 
-### now lets create an empty file called hello.txt
-bash|code> touch hello.txt
+---
 
-'touch' is a command that creates an empty file if it dosent exist or update the time stamp if it does 
+## Step 4: Create an empty file
 
-### to confirm your file was created use code 
-bash|code: ls
+We will create a file called hello.txt.
+touch hello.txt
 
-you should see hello.txt listed 
+### What touch does:
+- Creates an empty file if it does not exist
+- Updates the timestamp if the file already exists
 
-'>':this is called z redirection operator telling the terminal where to save a file 
+---
 
+## Step 5: Confirm file creation
 
+Use ls to list files:
+ls
+
+You should see:
+hello.txt
+
+---
+
+## Extra Note: Redirection Operator
+
+The > symbol is called a redirection operator.
+
+It is used to send output into a file.
+
+Example:
+echo "Hello" > hello.txt
+
+This writes "Hello" into hello.txt and overwrites existing content.
